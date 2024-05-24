@@ -2,7 +2,8 @@
     "Header.Item1": "About me",
     "Header.Item2": "Experience",
     "Header.Item3": "Projects",
-    "Header.Item4": "Contact",
+    "Header.Item4": "Education",
+    "Header.Item5": "Contact",
     "Header.cvBtn": "Resume",
     "Header.cvName": "MosenithHeangResume.pdf",
     "Banner.Pretitle": "Hello! My name is",
@@ -124,6 +125,25 @@
                 "Natural Language Processing (NLP)",
                 "sklearn Algorithms"
             ]
+        }
+    ],
+    "Education.Title": "Education",
+    "Education.List": [
+        {
+            "Degree": "Master of Science - Computer Science",
+            "Institution": "Maharishi International University, Fairfield, Iowa",
+            "Date": "11/2022 - 06/2025",
+            "Description": "In progress via distance education, expected completion is 2025"
+        },
+        {
+            "Degree": "Bachelor of Engineering - Computer Science",
+            "Institution": "Osaka Prefecture University, Osaka, Japan",
+            "Date": "04/2019 - 03/2022"
+        },
+        {
+            "Degree": "Associate of Science - Information Technology",
+            "Institution": "Osaka Information and Computer Science College, Osaka, Japan",
+            "Date": "04/2017 - 03/2019"
         }
     ],
     "Contact.Pretitle": "Let's Connect",
