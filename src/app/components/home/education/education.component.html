@@ -1,0 +1,21 @@
+<!-- src/app/home/education/education.component.html -->
+
+<section class="section education" id="education">
+    <div class="container">
+        <div class="section-box">
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="section-title">
+                    <span class='n-section-title'>04.</span> {{"Education.Title" | translate}}
+                </h3>
+            </div>
+            <div class="education-list" data-aos="fade-up" data-aos-duration="1000">
+                <div *ngFor="let education of ('Education.List' | translate)" class="education-item">
+                    <h2 class="education-degree">{{education.Degree}}</h2>
+                    <h3><span class="education-institution">{{education.Institution}}</span></h3>
+                    <h5 class="education-time">{{education.Date}}</h5>
+                    <p *ngIf="education.Description" class="education-description">{{education.Description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

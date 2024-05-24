@@ -4,6 +4,31 @@
     .about-description {
         margin-top: 30px;
         max-width: 480px;
+
+        .leetcode-blog {
+            margin-top: 20px;
+            text-align: center;
+
+            p {
+                font-size: 16px;
+                color: $LightSlate;
+                margin-bottom: 10px;
+            }
+
+            .main-btn {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: $LightNavy;
+                color: $White;
+                text-decoration: none;
+                border-radius: 3px;
+                font-size: 16px;
+
+                &:hover {
+                    background-color: lighten($Green, 10%);
+                }
+            }
+        }
     }
 
     .about-img-container {

@@ -1,0 +1,107 @@
+@import "./../../../../variables.scss";
+
+.education {
+  padding: 100px 0;
+
+  .section-box {
+    background-color: $Navy;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+    .about-title {
+      margin-bottom: 50px;
+
+      .section-title {
+        font-size: 20px;
+        color: $LightestSlate;
+        font-family: $CodeFont;
+
+        .code-font {
+          color: $Green;
+        }
+      }
+    }
+
+    .education-list {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .education-item {
+        padding: 25px;
+        background-color: $LightNavy;
+        border-radius: 3px;
+        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+        &:hover {
+          box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+        }
+
+        .education-degree {
+          font-size: 14px;
+          color: $Green;
+          font-family: $CodeFont;
+        }
+
+        .education-institution {
+          font-size: 14px;
+          color: $LightestSlate;
+          font-weight: bold;
+        }
+
+        .education-time {
+          font-size: 13px;
+          color: $Slate;
+          margin: 10px 0;
+        }
+
+        .education-description {
+          font-size: 13px;
+          color: $LightSlate;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .education {
+    padding: 50px 20px;
+
+    .section-box {
+      padding: 25px;
+
+      .about-title {
+        margin-bottom: 30px;
+
+        .section-title {
+          font-size: 24px;
+        }
+      }
+
+      .education-list {
+        .education-item {
+          padding: 20px;
+
+          .education-degree {
+            font-size: 15px;
+          }
+
+          .education-institution {
+            font-size: 14px;
+          }
+
+          .education-time {
+            font-size: 13px;
+          }
+
+          .education-description {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -19,8 +19,13 @@
                         translate}}</span></a>
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
+            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_education", "menu", "click")'>
+                <a ngbNavLink (click)='scroll("education")'><span class="underline nav-text"> {{"Header.Item4" |
+                        translate}}</span></a>
+                <ng-template ngbNavContent>Second content</ng-template>
+            </li>
             <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
-                <a ngbNavLink (click)='scroll("contact")'><span class="underline nav-text"> {{"Header.Item4" |
+                <a ngbNavLink (click)='scroll("contact")'><span class="underline nav-text"> {{"Header.Item5" |
                         translate}}</span></a>
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
@@ -53,9 +58,14 @@
                                 <span>03. </span> {{"Header.Item3" | translate}}
                             </a>
                         </li>
+                        <li (click)='analyticsService.sendAnalyticEvent("click_education", "menu", "click")'>
+                            <a (click)='scroll("education")'>
+                                <span>04. </span> {{"Header.Item4" | translate}}
+                            </a>
+                        </li>
                         <li (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
                             <a (click)='scroll("proyects")'>
-                                <span>04. </span> {{"Header.Item4" | translate}}
+                                <span>05. </span> {{"Header.Item5" | translate}}
                             </a>
                         </li>
                         <li>

@@ -13,6 +13,7 @@ import { NgbModule, NgbNav, NgbNavModule } from "@ng-bootstrap/ng-bootstrap";
 import { CarouselModule } from "ngx-owl-carousel-o";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
 import { FormsModule } from "@angular/forms";
+import { EducationComponent } from './education/education.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, "./assets/i18n/", ".json");
@@ -27,6 +28,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ProyectsComponent,
     MoreProyectsComponent,
     ContactComponent,
+    EducationComponent,
   ],
   imports: [
     FormsModule,
