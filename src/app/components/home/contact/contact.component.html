@@ -1,68 +1,68 @@
-<section class="section contact" id='contact'>
+<section class="section contact" id="contact">
     <div class="container">
         <div class="section-box">
             <div class="mb-4" data-aos="fade-up" data-aos-duration="1000">
                 <h3 class="contact-pre-title big-subtitle">04. {{"Contact.Pretitle" | translate}}</h3>
-                <h4 class="e-font contact-title big-title">
-                    {{"Contact.Title" | translate}}
-                </h4>
+                <h4 class="e-font contact-title big-title">{{ "Contact.Title" | translate }}</h4>
             </div>
-            <!-- <p data-aos="fade-up" data-aos-duration="1000">
-                {{"Contact.Content" | translate}} -->
-            <p *ngFor='let text of "Contact.Content" | translate' [innerHTML]="text" data-aos="fade-up"
-                data-aos-duration="1000">
-            </p>
-            <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" class="mt-5 contact-form">
-                <div class="form-group" data-aos="fade-up" data-aos-duration="1000">
-                    <label for="name">Name <span>*</span></label>
-                    <input type="text" id="name" name="name" ngModel required minlength="3" class="form-control"
-                        #name="ngModel">
-                    <div *ngIf="name.invalid && (name.dirty || name.touched)" class="invalid-feedback">
-                        <div *ngIf="name.errors?.required">Name is required.</div>
-                        <div *ngIf="name.errors?.minlength">Name must be at least 3 characters long.</div>
+            <p *ngFor="let text of ('Contact.Content' | translate)" [innerHTML]="text" data-aos="fade-up"
+                data-aos-duration="1000"></p>
+            <div *ngIf="!isSubmitted">
+                <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" class="mt-5 contact-form">
+                    <div class="form-group" data-aos="fade-up" data-aos-duration="1000">
+                        <label for="name">Name <span>*</span></label>
+                        <input type="text" id="name" name="name" ngModel required minlength="3" class="form-control"
+                            #name="ngModel">
+                        <div *ngIf="name.invalid && (name.dirty || name.touched)" class="invalid-feedback">
+                            <div *ngIf="name.errors?.required">Name is required.</div>
+                            <div *ngIf="name.errors?.minlength">Name must be at least 3 characters long.</div>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group" data-aos="fade-up" data-aos-duration="1000">
-                    <label for="email">E-mail <span>*</span></label>
-                    <input type="email" id="email" name="email" ngModel required email class="form-control"
-                        #email="ngModel">
-                    <div *ngIf="email.invalid && (email.dirty || email.touched)" class="invalid-feedback">
-                        <div *ngIf="email.errors?.required">E-mail is required.</div>
-                        <div *ngIf="email.errors?.email">Invalid e-mail address.</div>
+                    <div class="form-group" data-aos="fade-up" data-aos-duration="1000">
+                        <label for="email">E-mail <span>*</span></label>
+                        <input type="email" id="email" name="email" ngModel required email class="form-control"
+                            #email="ngModel">
+                        <div *ngIf="email.invalid && (email.dirty || email.touched)" class="invalid-feedback">
+                            <div *ngIf="email.errors?.required">E-mail is required.</div>
+                            <div *ngIf="email.errors?.email">Invalid e-mail address.</div>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group" data-aos="fade-up" data-aos-duration="1000">
-                    <label for="phone">Phone Number <span>*</span></label>
-                    <input type="text" id="phone" name="phone" ngModel required pattern="^[0-9]{10}$"
-                        class="form-control" #phone="ngModel">
-                    <div *ngIf="phone.invalid && (phone.dirty || phone.touched)" class="invalid-feedback">
-                        <div *ngIf="phone.errors?.required">Phone number is required.</div>
-                        <div *ngIf="phone.errors?.pattern">Invalid phone number. Must be 10 digits.</div>
+                    <div class="form-group" data-aos="fade-up" data-aos-duration="1000">
+                        <label for="phone">Phone Number <span>*</span></label>
+                        <input type="text" id="phone" name="phone" ngModel required pattern="^[0-9]{10}$"
+                            class="form-control" #phone="ngModel">
+                        <div *ngIf="phone.invalid && (phone.dirty || phone.touched)" class="invalid-feedback">
+                            <div *ngIf="phone.errors?.required">Phone number is required.</div>
+                            <div *ngIf="phone.errors?.pattern">Invalid phone number. Must be 10 digits.</div>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group" data-aos="fade-up" data-aos-duration="1000">
-                    <label for="subject">Subject <span>*</span></label>
-                    <input type="text" id="subject" name="subject" ngModel required minlength="5" class="form-control"
-                        #subject="ngModel">
-                    <div *ngIf="subject.invalid && (subject.dirty || subject.touched)" class="invalid-feedback">
-                        <div *ngIf="subject.errors?.required">Subject is required.</div>
-                        <div *ngIf="subject.errors?.minlength">Subject must be at least 5 characters long.</div>
+                    <div class="form-group" data-aos="fade-up" data-aos-duration="1000">
+                        <label for="subject">Subject <span>*</span></label>
+                        <input type="text" id="subject" name="subject" ngModel required minlength="5"
+                            class="form-control" #subject="ngModel">
+                        <div *ngIf="subject.invalid && (subject.dirty || subject.touched)" class="invalid-feedback">
+                            <div *ngIf="subject.errors?.required">Subject is required.</div>
+                            <div *ngIf="subject.errors?.minlength">Subject must be at least 5 characters long.</div>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group" data-aos="fade-up" data-aos-duration="1000">
-                    <label for="message">Message <span>*</span></label>
-                    <textarea id="message" name="message" ngModel required maxlength="500" class="form-control"
-                        #message="ngModel"></textarea>
-                    <div *ngIf="message.invalid && (message.dirty || message.touched)" class="invalid-feedback">
-                        <div *ngIf="message.errors?.required">Message is required.</div>
-                        <div *ngIf="message.errors?.maxlength">Message must be less than 500 characters.</div>
+                    <div class="form-group" data-aos="fade-up" data-aos-duration="1000">
+                        <label for="message">Message <span>*</span></label>
+                        <textarea id="message" name="message" ngModel required maxlength="500" class="form-control"
+                            #message="ngModel"></textarea>
+                        <div *ngIf="message.invalid && (message.dirty || message.touched)" class="invalid-feedback">
+                            <div *ngIf="message.errors?.required">Message is required.</div>
+                            <div *ngIf="message.errors?.maxlength">Message must be less than 500 characters.</div>
+                        </div>
                     </div>
-                </div>
-                <button type="submit" class="main-btn" [disabled]="contactForm.invalid || isSubmitted"
-                    data-aos="fade-up" data-aos-duration="1000">
-                    {{ isSubmitted ? 'Message Sent' : ('Contact.Btn' | translate) }}
-                </button>
-            </form>
+                    <button type="submit" class="main-btn" [disabled]="contactForm.invalid || isSubmitted"
+                        data-aos="fade-up" data-aos-duration="1000">
+                        {{ 'Contact.Btn' | translate }}
+                    </button>
+                </form>
+            </div>
+            <div *ngIf="isSubmitted" data-aos="fade-up" data-aos-duration="1000">
+                <button class="main-btn" disabled>{{ 'Message Sent' }}</button>
+            </div>
         </div>
     </div>
 </section>
