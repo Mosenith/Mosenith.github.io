@@ -12,6 +12,8 @@
     "AboutMe.Title": "About me",
     "AboutMe.Paragraphs": [
         "With over 4 years of experience as a Software Engineer, I have honed my expertise in developing distributed systems using <span class='underline'>C#, ASP.NET Core, Java, and Spring Boot</span>. I have worked with on a diverse range of projects involving <span class='underline'>RESTful APIs</span>, cloud platforms like <span class='underline'>AWS</span>, DevOps tools such as <span class='underline'>Azure DevOps</span>, and both <span class='underline'>SQL and NoSQL databases.</span>",
+        "With over 4 years of experience as a Full Stack .NET Developer, I specialize in building scalable enterprise applications using <span class='underline'>C#, .NET 8.0, ASP.NET Core, Entity Framework, and React.js</span>. My portfolio highlights projects involving microservices, secure  <span class='underline'>RESTful APIs</span>, legacy system migration, and automation using  <span class='underline'>Python.</span>",
+        "I am proficient in cloud platforms like <span class='underline'>AWS and Azure, DevOps practices with <span class='underline'>Azure DevOps and Docker</span>, and both SQL and NoSQL databases including <span class='underline'>SQL Server, Postgres, MySQL, and MongoDB</span>",
         "Additionally, I have gained valuable experience working with <span class='underline'>Natural Language Processing and Machine Learning</span> during college years in Japan.",
         "Some of the technologies that I have trained and worked on include (but are not limited to):"
     ],
