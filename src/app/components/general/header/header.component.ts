@@ -81,8 +81,7 @@ export class HeaderComponent implements OnInit {
 
         // app url
         let url =
-          "https://drive.google.com/file/d/13Gor3MLZ1U78tdQiQFFRTl3PZ9LlYclY/view?usp=sharing";
-
+          "https://drive.google.com/file/d/1C2X12_EnxisPWs3xMqMHWDH4q8lNbhpb/view?usp=sharing";
         // Open a new window with the CV
         window.open(url, "_blank");
       });
