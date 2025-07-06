@@ -150,9 +150,11 @@
     ],
     "Contact.Pretitle": "Let's Connect",
     "Contact.Title": "Reach Out to Me!",
+
+    
     "Contact.Content": [
-        "I'm currently exploring new opportunities in the market for roles such as Software Engineer, Java Developer, or .NET Developer.",
-        "If you have a position or project in mind, feel free to reach out. I'll respond promptly to discuss how we can work together."
+        "I'm currently working as a Full Stack .NET Developer at Deloitte, contributing to enterprise-grade applications and backend systems.",
+        "While I’m not actively seeking new roles, I’m open to hearing about exciting opportunities or collaborations that align with my skills and experience."
     ],
     "Contact.Btn": "Send a Message"
 }
