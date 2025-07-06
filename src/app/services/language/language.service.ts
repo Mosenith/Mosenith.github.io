@@ -27,7 +27,13 @@ export class LanguageService {
   }
 
   changeLanguage(language){
+    if (!language || !["en", "es"].includes(language)) {
+      language = "en"; // fallback
+    }
+
+
     this.translateService.setDefaultLang(language)
+    this.translateService.use(language)
     this.location.go(language)
     this.language=language
   }
