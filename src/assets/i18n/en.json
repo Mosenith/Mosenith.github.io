@@ -7,15 +7,14 @@
     "Header.cvBtn": "Resume",
     "Header.cvName": "MosenithHeangResume.pdf",
     "Banner.Pretitle": "Hello! My name is",
-    "Banner.Description": "As a Software Engineer with over 4 years of experience, I specialize in developing distributed systems using <span class='underline'>C#, ASP.NET Core, Java, and Spring Boot</span>. <br><br> My expertise extends to building robust <span class='underline'>RESTful APIs</span>, leveraging cloud platforms like <span class='underline'>AWS</span>, and utilizing DevOps tools such as <span class='underline'>Azure DevOps</span> for streamlined software delivery pipelines.",
+    "Banner.Description": "As a Full Stack .NET Developer with over 4 years of experience, I specialize in building scalable enterprise applications using <span class='underline'>C#, .NET 8.0, Entity Framework Core, React, and Angular</span>. <br><br> My work spans across developing secure <span class='underline'>RESTful APIs</span>, designing efficient databases, and delivering solutions on cloud platforms like <span class='underline'>AWS</span>, with CI/CD pipelines powered by <span class='underline'>Azure DevOps</span>.",
     "Banner.ActionBtn": "Get in touch",
     "AboutMe.Title": "About me",
     "AboutMe.Paragraphs": [
-        "With over 4 years of experience as a Software Engineer, I have honed my expertise in developing distributed systems using <span class='underline'>C#, ASP.NET Core, Java, and Spring Boot</span>. I have worked with on a diverse range of projects involving <span class='underline'>RESTful APIs</span>, cloud platforms like <span class='underline'>AWS</span>, DevOps tools such as <span class='underline'>Azure DevOps</span>, and both <span class='underline'>SQL and NoSQL databases.</span>",
-        "With over 4 years of experience as a Full Stack .NET Developer, I specialize in building scalable enterprise applications using <span class='underline'>C#, .NET 8.0, ASP.NET Core, Entity Framework, and React.js</span>. My portfolio highlights projects involving microservices, secure  <span class='underline'>RESTful APIs</span>, legacy system migration, and automation using  <span class='underline'>Python.</span>",
-        "I am proficient in cloud platforms like <span class='underline'>AWS and Azure, DevOps practices with <span class='underline'>Azure DevOps and Docker</span>, and both SQL and NoSQL databases including <span class='underline'>SQL Server, Postgres, MySQL, and MongoDB</span>",
-        "Additionally, I have gained valuable experience working with <span class='underline'>Natural Language Processing and Machine Learning</span> during college years in Japan.",
-        "Some of the technologies that I have trained and worked on include (but are not limited to):"
+        "With over 4 years of experience, I specialize in full stack development using <span class='underline'>C#, .NET 8.0, ASP.NET Core, Entity Framework Core, React.js,</span> and <span class='underline'>Angular</span>. I’ve contributed to enterprise applications involving microservices, modernization, and large-scale data handling.",
+        "I build secure <span class='underline'>RESTful APIs</span>, migrate legacy systems, and apply patterns like <span class='underline'>CQRS</span> and <span class='underline'>DDD</span> to deliver scalable backend solutions.",
+        "My expertise extends to <span class='underline'>cloud platforms</span> like <span class='underline'>AWS, GCP</span>, and tools such as <span class='underline'>Azure DevOps</span> and <span class='underline'>Docker</span> for CI/CD.",
+        "I’m proficient with <span class='underline'>SQL and NoSQL databases</span> including <span class='underline'>SQL Server, PostgreSQL, MySQL,</span> and <span class='underline'>MongoDB</span>, and have academic exposure to <span class='underline'>NLP</span> and <span class='underline'>Machine Learning</span>."
     ],
     "Experience.Title": "Experience",
     "Experience.Jobs": [
