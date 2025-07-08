@@ -19,9 +19,22 @@
     "Experience.Title": "Experience",
     "Experience.Jobs": [
         {
+            "Tab": "Deloitte",
+            "Title": "Full Stack .NET Developer",
+            "Date": "Sep 2024 - Present",
+            "Description": [
+                "Worked closely with technical leads and stakeholders to understand requirements and shape system functionality.",
+                "Developed and integrated backend APIs using C# and Entity Framework Core, while modernizing older .NET 4 services.",
+                "Built and supported scalable .NET 8.0 applications, connecting backend logic with SQL Server for data operations.",
+                "Improved database performance by tuning stored procedures and streamlining queries.",
+                "Enhanced React.js components by adding new features and fixing usability issues.",
+                "Created Python scripts to automate data validation and generate dynamic Excel and PDF reports."
+            ]
+        },
+        {
             "Tab": "Simpaz",
-            "Title": "Intern Fullstack developer",
-            "Date": "Feb 2024 - Present",
+            "Title": "Full Stack .NET Developer",
+            "Date": "Feb 2024 - Jun 2024",
             "Description": [
                 "Collaborated with teams, including developers and product managers, to gather requirements and translate them into functional UI components.",
                 "Designed and implemented user-friendly and responsive UI components for multiple features, including location and languages, using Angular, TypeScript, and JavaScript.",
